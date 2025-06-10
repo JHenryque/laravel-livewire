@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livewire</title>
-</head>
-
-<body>
-
-    <h3>Pagina de  Laravel</h3>
-
-    <livewire:counter />
-
-    <div> ou </div>
-
+<x-layouts.main-layout>
+    <div class="display-6 text-center">Livewire</div>
+    <hr>
     @livewire('counter')
-
-
-</body>
-
-</html>
+</x-layouts.main-layout>

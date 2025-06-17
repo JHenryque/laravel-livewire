@@ -8,6 +8,10 @@ class MainController extends Controller
 {
     public function home()
     {
-        return view('home');
+        $data = [
+            'valor3'=> 'valor3 veio do MainController',
+        ];
+
+        return view('home')->with($data);
     }
 }

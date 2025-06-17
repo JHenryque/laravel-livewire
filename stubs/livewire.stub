@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class [class] extends Component
 {
-    public function amout()
+    public function amount()
     {
         //digite o codigo aqui
     }

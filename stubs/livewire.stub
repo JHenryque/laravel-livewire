@@ -1,0 +1,18 @@
+<?php
+
+namespace [namespace];
+
+use Livewire\Component;
+
+class [class] extends Component
+{
+    public function amout()
+    {
+        //digite o codigo aqui
+    }
+
+    public function render()
+    {
+        return view('[view]');
+    }
+}

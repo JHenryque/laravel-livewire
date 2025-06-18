@@ -14,4 +14,6 @@
     <livewire:inline-component value="novo valor" :text="$variavel" />
 
     <livewire:properties-component valor2="valor literal" :valor3="$valor3" />
+
+    <livewire:form-component />
 </x-layouts.main-layout>

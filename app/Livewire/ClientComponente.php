@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class ClientComponente extends Component
 {
-    public $client;
+    public array $client;
     public function mount($client)
     {
         $this->client = $client;

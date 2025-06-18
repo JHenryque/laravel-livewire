@@ -7,6 +7,6 @@ use App\Livewire\Counter;
 
 Route::get('/', [MainController::class, 'home']);
 Route::get('/clients', [MainController::class, 'showClients']);
-Route::get('/fullpage', FullPageComponent::class);
+Route::get('/fullpage/{number1}/{number2}', FullPageComponent::class);
 
 //Route::get('/counter',Counter::class);
